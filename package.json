@@ -1,0 +1,16 @@
+{
+  "name": "azure-qr-code",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0",
+    "@azure/storage-blob": "^12.26.0",
+    "azure-qr-code": "file:",
+    "qrcode": "^1.5.4"
+  },
+  "main": "src/{index.js,functions/*.js}"
+}
